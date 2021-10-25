@@ -1,0 +1,24 @@
+#header{
+    position: absolute;
+    width: 185px;
+    height: 45px;
+    left: 524px;
+    top: 0px;
+
+}
+
+#navBar{
+    position: absolute;
+    width: 1440px;
+    height: 94px;
+    left: 0px;
+    top: 126px;
+    background: #000000;
+
+}
+
+#search{
+    color: white;
+    
+    
+}
