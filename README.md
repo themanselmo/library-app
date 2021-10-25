@@ -8,3 +8,7 @@ MVP:
   3. When a user rents a book, that book becomes shown as unavailable so other people can't rent it
   4. When a user is done with the book, they can "return" the book so it's available for others to rent
   5. Users can "donate" a book and add a new one to the libraries book list
+
+Stretch Goals:
+  1. Create account functionality so users can log in/out and see their own book lists
+ 
