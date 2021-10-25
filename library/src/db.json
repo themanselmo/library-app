@@ -1,0 +1,14 @@
+{
+    "books": [
+      {
+        "title": "exampleTitle",
+        "author": "exampleAuthor",
+        "image": "exampleImage",
+        "checkedOut": false,
+        "id": 1
+      }
+    ],
+    "userList": [
+
+    ]
+}
