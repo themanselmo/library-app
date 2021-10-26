@@ -40,6 +40,10 @@ function App() {
     setSearch(e.target[0].value)
   }
 
+  function handleRentBook(book) {
+    console.log('book! ', book)
+  }
+
   const filteredBooks = () => {
     if(search.length > 0) {
       return books.filter(book => book.title.includes(search))
@@ -111,7 +115,7 @@ function App() {
       <Header />
       <Nav />
       <Route path='/books/search'>
-        <Search filteredBooks={filteredBooks()} setSearch={handleSearch}/>
+        <Search filteredBooks={filteredBooks()} setSearch={handleSearch} handleRentBook={handleRentBook}/>
       </Route>
       <Route path='/books/new'>
         <Donate HandleDonation={HandleDonation} setFormData={setFormData} formData={formData}/>
@@ -120,7 +124,7 @@ function App() {
         <Return />
       </Route>
       <Route exact path='/'>
-        <Overview recommendedBooks={recommendedBooks} rentedBooks={rentedBooks}/>
+        <Overview recommendedBooks={recommendedBooks} rentedBooks={rentedBooks} handleRentBook={handleRentBook}/>
       </Route>
     </div>
   );

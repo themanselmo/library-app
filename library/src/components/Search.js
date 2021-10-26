@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 import BookContainer from './BookContainer'
 
-const Search = ({ filteredBooks, setSearch }) => {
+const Search = ({ filteredBooks, setSearch, handleRentBook }) => {
    
 
 
@@ -14,7 +14,7 @@ const Search = ({ filteredBooks, setSearch }) => {
                 <input type='text'></input>
                 <button>Submit</button>
             </form>
-            <BookContainer books={filteredBooks} />
+            <BookContainer books={filteredBooks} handleRentBook={handleRentBook}/>
         </div>
     )
 }

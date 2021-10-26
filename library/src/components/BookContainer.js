@@ -1,11 +1,11 @@
 import BookCard from "./BookCard"
 import styled from 'styled-components'
 
-const BookContainer = ({ books }) => {
+const BookContainer = ({ books, handleRentBook }) => {
 
     function checkForEmptyBooks(books) {
         if(books.length > 0) {
-            return books.map(book => <BookCard key={book.id} book={book}/>)
+            return books.map(book => <BookCard key={book.id} book={book} handleRentBook={handleRentBook}/>)
         } else {
             return <p>Empty</p>
         }
