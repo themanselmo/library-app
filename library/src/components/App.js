@@ -11,7 +11,7 @@ function App() {
 
   const [books, setBooks] = useState([])
   const [rentedBooks, setRentedBooks] = useState([])
-  const [recommended, setRecommended] = useState([])
+  const [formData, setFormData] = useState([])
 
   useEffect(() => {
     fetch('http://localhost:3000/books')
@@ -24,6 +24,8 @@ function App() {
     .then(res => res.json())
     .then(data => setRentedBooks(data))
   }, [])
+
+
 
   const recommendedBooks = [
     {
@@ -67,6 +69,22 @@ function App() {
         "id": 5
       }
   ]
+
+
+  const HandleDonation = (newBook) => {
+      fetch('http://localhost:3000/books',{
+        method: "POST",
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify(newBook),
+      })
+      .then(r=>r.json())
+      .then(data => {
+        setBooks([newBook, ...books])
+        setFormData({title:'', author:'', image:'', genre:'',checkedOut:false })
+      })
+      return <alert>Thank you donating!</alert>
+  }
+
   return (
     <div className="App">
       <Header />
@@ -75,7 +93,7 @@ function App() {
         <Search />
       </Route>
       <Route path='/books/new'>
-        <Donate />
+        <Donate HandleDonation={HandleDonation}/>
       </Route> 
       <Route exact path='/'>
         <Overview recommendedBooks={recommendedBooks} rentedBooks={rentedBooks}/>
