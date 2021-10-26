@@ -1,8 +1,3 @@
-function  Search (){
-
-}
-import { useState } from 'react'
-
 import BookContainer from './BookContainer'
 
 const Search = ({ filteredBooks, setSearch }) => {
