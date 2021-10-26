@@ -1,11 +1,87 @@
 {
+    "genres": [
+      "fiction", "textbook", "science fiction", "horror", "mystery"
+    ],
     "books": [
       {
-        "title": "exampleTitle",
-        "author": "exampleAuthor",
-        "image": "exampleImage",
+        "title": "Lord Of The Rings",
+        "author": "J.R.R Tolkien",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.collider.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fthe-lord-of-the-rings-book-cover.jpg&f=1&nofb=1",
+        "genre": "fiction",
         "checkedOut": false,
         "id": 1
+      },
+      {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fd.ibtimes.co.uk%2Fen%2Ffull%2F1541432%2Fharry-potter-philosophers-stone.jpg&f=1&nofb=1",
+        "genre": "fiction",
+        "checkedOut": false,
+        "id": 2
+      },
+      {
+        "title": "Eloquent JavaScript",
+        "author": "Manjin Haverbeke",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-um47FqTbvPg%2FVh0a-qERKYI%2FAAAAAAAAD9M%2FAemef2DnUe0%2Fs1600%2FEloquent%2BJavaScript%2BFree%2BBook.png&f=1&nofb=1",
+        "genre": "textbook",
+        "checkedOut": false,
+        "id": 3
+      },
+      {
+        "title": "JavaScript Patterns",
+        "author": "Stoyan Stefanov",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-ZB_AAD_1tiI%2FWKzhO9JKceI%2FAAAAAAAAH_c%2FElUSkJDNXDUDXEMPmpYuCWwy_jJBR0lUwCEw%2Fs1600%2Fjsp_javascript_patterns.jpg&f=1&nofb=1",
+        "genre": "textbook",
+        "checkedOut": false,
+        "id": 4
+      },
+      {
+        "title": "Embers Of War",
+        "author": "Gareth L. Powell",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FgCX7EZXWnp097mMaNMhVMIsQFlw%3D%2F0x0%3A1181x1800%2F1200x0%2Ffilters%3Afocal(0x0%3A1181x1800)%3Ano_upscale()%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F10131869%2FDEC171874.jpg&f=1&nofb=1",
+        "genre": "science fiction",
+        "checkedOut": false,
+        "id": 5
+      },
+      {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.collider.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fthe-hitchhikers-guide-to-the-galaxy.jpg&f=1&nofb=1",
+        "genre": "science fiction",
+        "checkedOut": false,
+        "id": 6
+      },
+      {
+        "title": "Carrie",
+        "author": "Stephen King",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F09%2FCarrie-1.jpg&f=1&nofb=1",
+        "genre": "horror",
+        "checkedOut": false,
+        "id": 7
+      },
+      {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia4.popsugar-assets.com%2Ffiles%2Fthumbor%2FVDtKKeNUg-lYxPZCrcaxZDfUaOI%2Ffit-in%2F1024x1024%2Ffilters%3Aformat_auto-!!-%3Astrip_icc-!!-%2F2016%2F07%2F06%2F021%2Fn%2F1922283%2F4d7d4fa5_shining.jpg&f=1&nofb=1",
+        "genre": "horror",
+        "checkedOut": false,
+        "id": 8
+      },
+      {
+        "title": "It",
+        "author": "Stephen King",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frumahhijabaqila.com%2Fimg%2Fstephen-king-non-horror-novels-3.jpg&f=1&nofb=1",
+        "genre": "horror",
+        "checkedOut": false,
+        "id": 9
+      },
+      {
+        "title": "The Cabin in the Woods",
+        "author": "Nancy Elizabeth Lynn",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frumahhijabaqila.com%2Fimg%2F078b1d0948b4d4739fa06586e8dcf4c4.jpg&f=1&nofb=1",
+        "genre": "mystery",
+        "checkedOut": false,
+        "id": 10
       }
     ],
     "userList": [
