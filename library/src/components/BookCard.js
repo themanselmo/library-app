@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import noImage from '../images/noImage.jpeg'
 import styled from 'styled-components'
 function BookCard({book, book:{image,title,author,genre, checkedOut}}) {
 
@@ -10,6 +11,7 @@ function BookCard({book, book:{image,title,author,genre, checkedOut}}) {
     return(
         
         <Card id="card">
+            {image === '' ? image = noImage : null}
             <img id='card-image' src={image}/>
             <h3>{title}</h3>
             <h4>{author}</h4>

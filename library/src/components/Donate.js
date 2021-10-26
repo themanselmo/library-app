@@ -1,13 +1,13 @@
 import {useState} from 'react'
-function Donate({HandleDonation}){
-    const [formData, setFormData] = useState({
-        title: '',
-        author: '',
-        image: '',
-        genre: '',
-        checkedOut: false,
+function Donate({HandleDonation, setFormData, formData}){
+    // const [formData, setFormData] = useState({
+    //     title: '',
+    //     author: '',
+    //     image: '',
+    //     genre: '',
+    //     checkedOut: false,
 
-    })
+    // })
 
 const HandleChange = (e) => {
     setFormData({...formData, [e.target.name]: e.target.value})
@@ -16,8 +16,8 @@ const HandleChange = (e) => {
 const HandleSubmit = (e) => {
     e.preventDefault();
     HandleDonation(formData)
-    return<alert>Thank you for donating!</alert>
 }
+
     return(
         <div>
 
@@ -26,13 +26,13 @@ const HandleSubmit = (e) => {
             <h3>Please fill out the form below to donate a book to our inventory!</h3>
             <form onSubmit={HandleSubmit} id='form' >
                 <label>Enter Book Title:</label>
-                    <input type="text" name='title' onChange={HandleChange}></input>
+                    <input type="text" name='title' value={formData.title} onChange={HandleChange}></input>
                 <label>Enter Book author:</label>
-                    <input type="text" name="author" onChange={HandleChange}></input>
+                    <input type="text" name="author" value={formData.author} onChange={HandleChange}></input>
                 <label>Insert cover image URL:</label>
-                    <input type="text" name='image' onChange={HandleChange}></input>
+                    <input type="text" name='image' value={formData.image} onChange={HandleChange}></input>
                 <label>Enter Book Genre:</label>
-                    <input type="text" name='genre' onChange={HandleChange}></input>
+                    <input type="text" name='genre' value={formData.genre} onChange={HandleChange}></input>
                 <br></br>
 
                 <button>Donate!</button>

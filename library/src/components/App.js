@@ -11,7 +11,13 @@ function App() {
 
   const [books, setBooks] = useState([])
   const [rentedBooks, setRentedBooks] = useState([])
-  const [formData,setFormData] = useState([])
+  const [formData, setFormData] = useState({
+    title: '',
+    author: '',
+    image: '',
+    genre: '',
+    checkedOut: false
+  })
   const [recommended, setRecommended] = useState([])
   const [search, setSearch] = useState('')
   
@@ -96,8 +102,8 @@ function App() {
       .then(data => {
         setBooks([newBook, ...books])
         setFormData({title:'', author:'', image:'', genre:'',checkedOut:false })
+        alert('Thank you for Donating!')
       })
-      return <alert>Thank you donating!</alert>
   }
 
   return (
@@ -108,7 +114,7 @@ function App() {
         <Search filteredBooks={filteredBooks()} setSearch={handleSearch}/>
       </Route>
       <Route path='/books/new'>
-        <Donate HandleDonation={HandleDonation}/>
+        <Donate HandleDonation={HandleDonation} setFormData={setFormData} formData={formData}/>
       </Route> 
       <Route exact path='/'>
         <Overview recommendedBooks={recommendedBooks} rentedBooks={rentedBooks}/>
