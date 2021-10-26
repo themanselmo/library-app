@@ -11,8 +11,10 @@ function App() {
 
   const [books, setBooks] = useState([])
   const [rentedBooks, setRentedBooks] = useState([])
-  const [formData, setFormData] = useState([])
-
+  const [formData,setFormData] = useState([])
+  const [recommended, setRecommended] = useState([])
+  const [search, setSearch] = useState('')
+  
   useEffect(() => {
     fetch('http://localhost:3000/books')
     .then(res => res.json())
@@ -26,6 +28,19 @@ function App() {
   }, [])
 
 
+  function handleSearch(e) {
+    e.preventDefault()
+    console.log(e.target[0].value)
+    setSearch(e.target[0].value)
+  }
+
+  const filteredBooks = () => {
+    if(search.length > 0) {
+      return books.filter(book => book.title.includes(search))
+    } else {
+      return books
+    }
+  }
 
   const recommendedBooks = [
     {
@@ -90,7 +105,7 @@ function App() {
       <Header />
       <Nav />
       <Route path='/books/search'>
-        <Search />
+        <Search filteredBooks={filteredBooks()} setSearch={handleSearch}/>
       </Route>
       <Route path='/books/new'>
         <Donate HandleDonation={HandleDonation}/>
