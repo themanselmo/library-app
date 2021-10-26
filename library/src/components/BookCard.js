@@ -1,9 +1,11 @@
 
 
-function BookCard({book:{image,title,author,genre}}) {
+function BookCard({book, book:{image,title,author,genre}}) {
     
     return(
+        
         <div id="card">
+            {console.log(book)}
             <h3>{title}</h3>
             <h4>{author}</h4>
             <h4>{genre}</h4>

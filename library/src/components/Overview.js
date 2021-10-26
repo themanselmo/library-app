@@ -1,9 +1,10 @@
 import BookContainer from "./BookContainer"
-const Overview = ({ rentedBooks }) => {
+
+const Overview = ({ rentedBooks, recommendedBooks}) => {
     return (
         <>
             {/* container for recommended books */}
-            <BookContainer books={rentedBooks}/>
+            <BookContainer books={recommendedBooks}/>
             {/* container for rented books */}
             <BookContainer books={rentedBooks}/>
         </>

@@ -1,10 +1,10 @@
 function Nav(){
     return (
-        <div id="navBar">
-            <h1 id="search">search</h1>
-            <h4 id="donate">Donate</h4>
-            <h4 id="return">return</h4>
-        </div>
+        <ul id="navBar">
+            <li id="search">search</li>
+            <li id="donate">Donate</li>
+            <li id="return">return</li>
+        </ul>
     )
 }
 

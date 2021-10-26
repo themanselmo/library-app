@@ -7,6 +7,7 @@ function App() {
 
   const [books, setBooks] = useState([])
   const [rentedBooks, setRentedBooks] = useState([])
+  const [recommended, setRecommended] = useState([])
 
   useEffect(() => {
     fetch('http://localhost:3000/books')
@@ -31,7 +32,7 @@ function App() {
     <div className="App">
       <Header />
       <Nav />
-      <Overview recommendedBooks={} rentedBooks={rentedBooks}/>
+      <Overview recommendedBooks={mockBooks} rentedBooks={rentedBooks}/>
     </div>
   );
 }

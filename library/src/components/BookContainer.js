@@ -11,7 +11,7 @@ const BookContainer = ({ books }) => {
     }
 
     return (
-        <div>
+        <div className="book-container">
            {checkForEmptyBooks(books)} 
         </div>
     )
