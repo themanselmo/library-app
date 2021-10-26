@@ -1,4 +1,4 @@
-function BookCard(){
+function BookCard() {
     return(
         <div id="card"></div>
     )

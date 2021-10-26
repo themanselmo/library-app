@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from  './Header'
 import Nav from './Nav'
 import Overview from './Overview';
 
 function App() {
+
+  const [books, setBooks] = useState([])
+  const [rentedBooks, setRentedBooks] = useState([])
+
+  useEffect(() => {
+    fetch('http://localhost:3000/books')
+    .then(res => res.json())
+    .then(data => setBooks(data))
+  }, [])
+
+  useEffect(() => {
+    fetch('http://localhost:3000/userList')
+    .then(res => res.json())
+    .then(data => setRentedBooks(data))
+  }, [])
+
   const mockBooks = [
     {
       title: "test title",
