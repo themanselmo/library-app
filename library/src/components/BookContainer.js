@@ -22,5 +22,6 @@ export default BookContainer
 
 const BookContainerContainer = styled.div `
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 `
