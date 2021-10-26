@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <Header />
       <Nav />
-      <Overview rentedBooks={mockBooks}/>
+      <Overview recommendedBooks={} rentedBooks={rentedBooks}/>
     </div>
   );
 }
