@@ -1,4 +1,5 @@
 import BookCard from "./BookCard"
+import styled from 'styled-components'
 
 const BookContainer = ({ books }) => {
 
@@ -11,10 +12,15 @@ const BookContainer = ({ books }) => {
     }
 
     return (
-        <div className="book-container">
+        <BookContainerContainer className="book-container">
            {checkForEmptyBooks(books)} 
-        </div>
+        </BookContainerContainer>
     )
 }
 
 export default BookContainer
+
+const BookContainerContainer = styled.div `
+    display:flex;
+    justify-content: space-between;
+`
