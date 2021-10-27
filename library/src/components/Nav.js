@@ -8,8 +8,13 @@ function Nav(){
             <Link to={'/'}><li id="home">Home</li> </Link>
             <Link to={'/books/search'} ><li id="search">Search</li> </Link>
             <Link to={'/books/new'}><li id="donate">Donate</li></Link>
+<<<<<<< HEAD
             <Link to={''}><li id="return">Return</li></Link>
         </Navi>
+=======
+            <Link to={'/books/return'}><li id="return">Return</li></Link>
+        </ul>
+>>>>>>> fa975dba5f40612dafee2d0a9ba63b9d4b82e067
     )
 }
 

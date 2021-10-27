@@ -7,8 +7,11 @@ import Nav from './Nav'
 import Overview from './Overview';
 import Search from './Search';
 import Donate from './Donate';
-
+import Return from './Return'
 function App() {
+
+  const bookURL = 'http://localhost:3000/books'
+  const userListURL = 'http://localhost:3000/userList'
 
   const [books, setBooks] = useState([])
   const [rentedBooks, setRentedBooks] = useState([])
@@ -23,13 +26,13 @@ function App() {
   const [search, setSearch] = useState('')
   
   useEffect(() => {
-    fetch('http://localhost:3000/books')
+    fetch(bookURL)
     .then(res => res.json())
     .then(data => setBooks(data))
   }, [])
 
   useEffect(() => {
-    fetch('http://localhost:3000/userList')
+    fetch(userListURL)
     .then(res => res.json())
     .then(data => setRentedBooks(data))
   }, [])
@@ -39,6 +42,22 @@ function App() {
     e.preventDefault()
     console.log(e.target[0].value)
     setSearch(e.target[0].value)
+  }
+
+  function handleRentBook(book) {
+    console.log('book! ', book)
+
+    fetch(`${bookURL}/${book.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+       checkedOut: !book.checkedOut
+      })
+    })
+    .then(res => res.json())
+    .then(updatedItem => console.log(updatedItem))
   }
 
   const filteredBooks = () => {
@@ -94,7 +113,7 @@ function App() {
 
 
   const HandleDonation = (newBook) => {
-      fetch('http://localhost:3000/books',{
+      fetch(bookURL,{
         method: "POST",
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify(newBook),
@@ -112,13 +131,16 @@ function App() {
       <Header />
       <Nav />
       <Route path='/books/search'>
-        <Search filteredBooks={filteredBooks()} setSearch={handleSearch}/>
+        <Search filteredBooks={filteredBooks()} setSearch={handleSearch} handleRentBook={handleRentBook}/>
       </Route>
       <Route path='/books/new'>
         <Donate HandleDonation={HandleDonation} setFormData={setFormData} formData={formData}/>
       </Route> 
+      <Route path='/books/return'>
+        <Return />
+      </Route>
       <Route exact path='/'>
-        <Overview recommendedBooks={recommendedBooks} rentedBooks={rentedBooks}/>
+        <Overview recommendedBooks={recommendedBooks} rentedBooks={rentedBooks} handleRentBook={handleRentBook}/>
       </Route>
     </Appy>
   );

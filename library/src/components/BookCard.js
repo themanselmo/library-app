@@ -1,12 +1,13 @@
 import {useState} from 'react'
 import noImage from '../images/noImage.jpeg'
 import styled from 'styled-components'
-function BookCard({book, book:{image,title,author,genre, checkedOut}}) {
+function BookCard({book, book:{image,title,author,genre, checkedOut}, handleRentBook}) {
 
     const [rent, setRented] = useState(checkedOut)
 
-    const HandleClick = () => {
+    const HandleClick = (book) => {
         setRented(!rent)
+        handleRentBook(book)
     }
     return(
         
@@ -16,7 +17,10 @@ function BookCard({book, book:{image,title,author,genre, checkedOut}}) {
             <h3>{title}</h3>
             <h4>{author}</h4>
             <h4>{genre}</h4>
-            <button onClick={()=> HandleClick()}>{rent ? "Checked out!" : "Rent Me!"}</button>
+            { 
+                rent ? <p>Unavailable</p> :
+                    <button onClick={()=> HandleClick(book)}>Rent Me</button>
+            }
         </Card>
 
     )
