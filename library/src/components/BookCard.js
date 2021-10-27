@@ -17,7 +17,10 @@ function BookCard({book, book:{image,title,author,genre, checkedOut}, handleRent
             <h3>{title}</h3>
             <h4>{author}</h4>
             <h4>{genre}</h4>
-            <button onClick={()=> HandleClick(book)}>{rent ? "Checked out!" : "Rent Me!"}</button>
+            { 
+                rent ? <p>Unavailable</p> :
+                    <button onClick={()=> HandleClick(book)}>Rent Me</button>
+            }
         </Card>
 
     )

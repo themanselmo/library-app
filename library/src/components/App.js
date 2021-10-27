@@ -9,6 +9,9 @@ import Donate from './Donate';
 import Return from './Return'
 function App() {
 
+  const bookURL = 'http://localhost:3000/books'
+  const userListURL = 'http://localhost:3000/userList'
+
   const [books, setBooks] = useState([])
   const [rentedBooks, setRentedBooks] = useState([])
   const [formData, setFormData] = useState({
@@ -22,13 +25,13 @@ function App() {
   const [search, setSearch] = useState('')
   
   useEffect(() => {
-    fetch('http://localhost:3000/books')
+    fetch(bookURL)
     .then(res => res.json())
     .then(data => setBooks(data))
   }, [])
 
   useEffect(() => {
-    fetch('http://localhost:3000/userList')
+    fetch(userListURL)
     .then(res => res.json())
     .then(data => setRentedBooks(data))
   }, [])
@@ -42,6 +45,18 @@ function App() {
 
   function handleRentBook(book) {
     console.log('book! ', book)
+
+    fetch(`${bookURL}/${book.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+       checkedOut: !book.checkedOut
+      })
+    })
+    .then(res => res.json())
+    .then(updatedItem => console.log(updatedItem))
   }
 
   const filteredBooks = () => {
@@ -97,7 +112,7 @@ function App() {
 
 
   const HandleDonation = (newBook) => {
-      fetch('http://localhost:3000/books',{
+      fetch(bookURL,{
         method: "POST",
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify(newBook),
