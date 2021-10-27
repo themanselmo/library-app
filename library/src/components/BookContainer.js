@@ -25,5 +25,6 @@ const BookContainerContainer = styled.div `
     /* position: absolute; */
     display:flex;
     flex-wrap: wrap;
+    grid-gap: 50px;
     justify-content: space-between;
 `

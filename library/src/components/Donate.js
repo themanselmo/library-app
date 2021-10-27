@@ -33,6 +33,8 @@ const HandleSubmit = (e) => {
                     <input type="text" name='image' value={formData.image} onChange={HandleChange}></input>
                 <label>Enter Book Genre:</label>
                     <input type="text" name='genre' value={formData.genre} onChange={HandleChange}></input>
+                <label>Enter Book Description:</label>
+                    <input type="text" name='description' value={formData.description} onChange={HandleChange}></input>
                 <br></br>
 
                 <button>Donate!</button>

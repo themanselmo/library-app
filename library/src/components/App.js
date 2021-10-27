@@ -25,6 +25,7 @@ function App() {
     author: '',
     image: '',
     genre: '',
+    description: '',
     checkedOut: false
   })
 
@@ -206,7 +207,7 @@ function App() {
       .then(r=>r.json())
       .then(data => {
         setBooks([newBook, ...books])
-        setFormData({title:'', author:'', image:'', genre:'',checkedOut:false })
+        setFormData({title:'', author:'', image:'', genre:'', description: '',checkedOut:false })
         alert('Thank you for Donating!')
       })
   }
