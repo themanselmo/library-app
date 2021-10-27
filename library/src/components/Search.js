@@ -10,7 +10,7 @@ const Search = ({ filteredBooks, setSearch, handleRentBook }) => {
     return (
         <div>
             <form onSubmit={setSearch}>
-                <label>Search by Book Title</label>
+                <label>Search by Book Title or Genre</label>
                 <input type='text'></input>
                 <button>Submit</button>
             </form>

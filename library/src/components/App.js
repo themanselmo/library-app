@@ -169,7 +169,7 @@ function App() {
   // if nothing is in the search bar, all books will be displayed
   const filteredBooks = () => {
     if(search.length > 0) {
-      return books.filter(book => book.title.includes(search))
+      return books.filter(book => book.title.includes(search) || book.genre.includes(search))
     } else {
       return books
     }
