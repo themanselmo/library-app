@@ -16,11 +16,12 @@ function BookCard({book, book:{image,title,author,genre, description, checkedOut
     }
     return(
         
-        <Card onClick={() => handleFlip()} id="card">
+        <Card id="card">
             {face ?  
                 <Back>
                     <h3>Book Description:</h3>
                     {description}
+                    <button onClick={() => handleFlip()}>Flip</button>
                 </Back>
 
                    :     
@@ -35,6 +36,7 @@ function BookCard({book, book:{image,title,author,genre, description, checkedOut
                            rent ? <p>Unavailable</p> :
                                <button onClick={()=> HandleClick(book)}>Rent Me</button>
                        }
+                    <button onClick={() => handleFlip()}>Flip</button>
                </div>    
                 }
 

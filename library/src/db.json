@@ -13,7 +13,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.collider.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fthe-lord-of-the-rings-book-cover.jpg&f=1&nofb=1",
       "genre": "fiction",
       "description": "During his travels across Middle-earth, the hobbit Bilbo Baggins had found the Ring. But the simple band of gold was far from ordinary; it was in fact the One Ring - the greatest of the ancient Rings of Power. Sauron, the Dark Lord, had infused it with his own evil magic, and when it was lost, he was forced to flee into hiding. But now Sauron's exile has ended and his power is spreading anew, fueled by the knowledge that his treasure has been found. He has gathered all the Great Rings to him, and will stop at nothing to reclaim the One that will complete his dominion. The only way to stop him is to cast the Ruling Ring deep into the Fire-Mountain at the heart of the land of Mordor--Sauron's dark realm.Fate has placed the burden in the hands of Frodo Baggins, Bilbo's heir...and he is resolved to bear it to its end. Or his own.",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 1
     },
     {
@@ -22,7 +22,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fd.ibtimes.co.uk%2Fen%2Ffull%2F1541432%2Fharry-potter-philosophers-stone.jpg&f=1&nofb=1",
       "genre": "fiction",
       "description": "When mysterious letters start arriving on his doorstep, Harry Potter has never heard of Hogwarts School of Witchcraft and Wizardry. They are swiftly confiscated by his aunt and uncle. Then, on Harry’s eleventh birthday, a strange man bursts in with some important news: Harry Potter is a wizard and has been awarded a place to study at Hogwarts. And so the first of the Harry Potter adventures is set to begin.",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 2
     },
     {
@@ -31,7 +31,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-um47FqTbvPg%2FVh0a-qERKYI%2FAAAAAAAAD9M%2FAemef2DnUe0%2Fs1600%2FEloquent%2BJavaScript%2BFree%2BBook.png&f=1&nofb=1",
       "genre": "textbook",
       "description": "None",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 3
     },
     {
@@ -40,7 +40,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-ZB_AAD_1tiI%2FWKzhO9JKceI%2FAAAAAAAAH_c%2FElUSkJDNXDUDXEMPmpYuCWwy_jJBR0lUwCEw%2Fs1600%2Fjsp_javascript_patterns.jpg&f=1&nofb=1",
       "genre": "textbook",
       "description": "None",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 4
     },
     {
@@ -49,7 +49,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FgCX7EZXWnp097mMaNMhVMIsQFlw%3D%2F0x0%3A1181x1800%2F1200x0%2Ffilters%3Afocal(0x0%3A1181x1800)%3Ano_upscale()%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F10131869%2FDEC171874.jpg&f=1&nofb=1",
       "genre": "science fiction",
       "description": "The sentient warship Trouble Dog was built for violence, yet following a brutal war, she is disgusted by her role in a genocide. Stripped of her weaponry and seeking to atone, she joins the House of Reclamation, an organisation dedicated to rescuing ships in distress. When a civilian ship goes missing in a disputed system, Trouble Dog and her new crew of loners, captained by Sal Konstanz, are sent on a rescue mission. Meanwhile, light years away, intelligence officer Ashton Childe is tasked with locating the poet, Ona Sudak, who was aboard the missing spaceship. What Childe doesn't know is that Sudak is not the person she appears to be. A straightforward rescue turns into something far more dangerous, as Trouble Dog, Konstanz and Childe find themselves at the centre of a conflict that could engulf the entire galaxy. If she is to save her crew, Trouble Dog is going to have to remember how to fight ...",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 5
     },
     {
