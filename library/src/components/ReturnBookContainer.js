@@ -8,7 +8,7 @@ const ReturnBookContainer = ({ books, handleReturn }) => {
             console.log(books)
             return books.map(book => <ReturnBookCard key={book.id} book={book} handleReturnBook={handleReturn}/>)
         } else {
-            return <p>Empty</p>
+            return null
         }
     }
 
