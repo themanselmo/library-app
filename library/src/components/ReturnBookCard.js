@@ -32,10 +32,19 @@ const Card = styled.div`
     transition: 0.3s;
     width: 300px;
     height: 450px;
+    border-radius: 25px 25px 25px 25px;
+    border-style: outset;
+    border-color: red;
     img{
         width:200px;
         height: 200px;
-        }
+    }
+
+    :hover {
+        width: 320px;
+        height: 470px;
+    }
+
     /* #card:hover{
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     } */
