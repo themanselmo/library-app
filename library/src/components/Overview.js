@@ -1,6 +1,7 @@
 import BookContainer from "./BookContainer"
 
 const Overview = ({ rentedBooks, recommendedBooks, handleRentBook }) => {
+    console.log(recommendedBooks)
     return (
         <>
             {/* container for recommended books */}
