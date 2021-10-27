@@ -65,6 +65,11 @@ const Card = styled.div`
     border-style: outset;
     border-color: red;
     
+    :hover {
+        width: 320px;
+        height: 470px;
+    }
+
     img{
         width:200px;
         height: 200px;
