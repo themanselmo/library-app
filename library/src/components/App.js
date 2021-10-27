@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Route, Switch} from "react-router-dom"
+import styled from 'styled-components'
 
 import Header from  './Header'
 import Nav from './Nav'
@@ -107,7 +108,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <Appy className="App">
       <Header />
       <Nav />
       <Route path='/books/search'>
@@ -119,8 +120,12 @@ function App() {
       <Route exact path='/'>
         <Overview recommendedBooks={recommendedBooks} rentedBooks={rentedBooks}/>
       </Route>
-    </div>
+    </Appy>
   );
 }
 
 export default App;
+
+const Appy = styled.div`
+  text-align:center;
+`

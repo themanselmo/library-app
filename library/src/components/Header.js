@@ -14,10 +14,10 @@ function Header(){
 export default Header;
 
 const Head = styled.div`
-    position: absolute;
+    /* position: absolute; */
+    margin-left: 12%;
     width: 185px;
     height: 45px;
-    left: 524px;
-    top: 0px;
+    float:right;
 
 `
