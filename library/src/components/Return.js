@@ -1,9 +1,14 @@
 import React from 'react'
+import ReturnBookContainer from './ReturnBookContainer'
 
-const Return = () => {
+
+
+const Return = ({books, handleReturn}) => {
+
     return (
         <div>
-            Hello
+            <h4>Choose a book to return.</h4>
+            <ReturnBookContainer books={books} handleReturn={handleReturn}/>
         </div>
     )
 }

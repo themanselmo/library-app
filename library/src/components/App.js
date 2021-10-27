@@ -126,6 +126,34 @@ function App() {
     })
   }
 
+  const handleReturnBooks = (deletedBook) => {
+    console.log("handling return")
+    deletedBook.checkedOut = !deletedBook.checkedOut
+    fetch(`${bookURL}/${deletedBook.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        checkedOut: deletedBook.checkedOut
+      })
+    })
+    .then(res => res.json())
+    .then(book => {
+      const bookIndex = books.findIndex(book => book.id === deletedBook.id)
+      console.log(bookIndex)
+      let updatedBooks = books.filter(book => book.id != deletedBook.id)
+      updatedBooks.splice(bookIndex, 1, deletedBook)
+      setBooks(updatedBooks)
+    })
+
+    
+    fetch(`${userListURL}/${deletedBook.id}`, {
+      method: "DELETE",
+    })
+    .then(setRentedBooks(rentedBooks.filter(book => book.id != deletedBook.id))
+    )
+  }
   // whenever the search button is pressed, the search state variable
   // is set to what was input in the textfield
   function handleSearch(e) {
@@ -183,6 +211,8 @@ function App() {
       })
   }
 
+
+  
   return (
     <Appy className="App">
       <Header />
@@ -194,7 +224,7 @@ function App() {
         <Donate HandleDonation={HandleDonation} setFormData={setFormData} formData={formData}/>
       </Route> 
       <Route path='/books/return'>
-        <Return />
+        <Return books={rentedBooks} handleReturn={handleReturnBooks}/>
       </Route>
       <Route exact path='/'>
         <Overview recommendedBooks={randomBooks()} rentedBooks={rentedBooks} handleRentBook={handleRentBook}/>
