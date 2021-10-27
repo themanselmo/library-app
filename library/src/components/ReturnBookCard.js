@@ -42,7 +42,7 @@ const Card = styled.div`
 
     :hover {
         width: 320px;
-        height: 470px;
+        
     }
 
     /* #card:hover{
