@@ -22,8 +22,17 @@ const Search = ({ filteredBooks, setSearch, handleRentBook }) => {
 export default Search
 
 const SearchContainer = styled.div`
-
+    button{
+        font-family: Merriweather, serif;
+        color:white;
+        border-style: inset;
+        border-radius: 25px 25px 25px 25px;
+        border-color: white;
+        background-color: red;
+    }
     form input {
         margin: 20px;
+        border-style: outset;
+        border-radius: 25px 25px 25px 25px;
     }
 `

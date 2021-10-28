@@ -21,7 +21,8 @@ const Navi = styled.div`
     display: flex;
     align-items: center;
     border-style: groove;
-    
+    border-style: outset;
+    border-radius: 0px 0px 25px 25px;
     text-align: center;
 
     li{

@@ -22,7 +22,6 @@ const BookContainer = ({ books, handleRentBook }) => {
 export default BookContainer
 
 const BookContainerContainer = styled.div `
-    /* position: absolute; */
     display:flex ;
     flex-wrap: wrap;
     grid-gap: 50px;

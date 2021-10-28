@@ -15,6 +15,7 @@ export default Header;
 
 const Head = styled.div`
     /* position: absolute; */
+    
     width: 300px;
     height: 400px;
     float:right;
