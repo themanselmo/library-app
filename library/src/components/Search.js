@@ -22,10 +22,8 @@ const Search = ({ filteredBooks, setSearch, handleRentBook }) => {
 export default Search
 
 const SearchContainer = styled.div`
-   
 
     form input {
         margin: 20px;
-        
     }
 `
