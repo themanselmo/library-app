@@ -19,7 +19,4 @@ const Head = styled.div`
     height: 400px;
     float:right;
 
-    img {
-      
-    }
 `

@@ -238,4 +238,6 @@ export default App;
 
 const Appy = styled.div`
   text-align:center;
+  background: linear-gradient(black,black,red,black,black);
+  color: white;
 `
