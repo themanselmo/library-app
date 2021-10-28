@@ -85,6 +85,10 @@ const Card = styled.div`
         border-radius: 25px 25px 25px 25px;
         border-color: white;
         background-color: red;
+
+        :hover {
+            background-color: darkred;
+        }
     }
     :hover {
         width: 320px;
