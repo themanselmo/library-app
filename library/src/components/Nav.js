@@ -21,22 +21,21 @@ const Navi = styled.div`
     display: flex;
     align-items: center;
     border-style: groove;
+    
     text-align: center;
 
-
-
-
     li{
-
         display:inline-block;
-
-        margin: 100px;
+        margin: auto;
         font-size: 35px;
         background-color: red;
         color: white;
         text-decoration: none;
-        border-style: inset;
+        border-style: inset; 
+        border-radius:  15px;
 
-        
+        :hover {
+            background-color: darkred;
+        }
     }
 `
