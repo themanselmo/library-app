@@ -11,7 +11,7 @@
       "title": "Lord Of The Rings",
       "author": "J.R.R Tolkien",
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.collider.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fthe-lord-of-the-rings-book-cover.jpg&f=1&nofb=1",
-      "genre": "fiction",
+      "genre": "Fiction",
       "description": "During his travels across Middle-earth, the hobbit Bilbo Baggins had found the Ring. But the simple band of gold was far from ordinary; it was in fact the One Ring - the greatest of the ancient Rings of Power. Sauron, the Dark Lord, had infused it with his own evil magic, and when it was lost, he was forced to flee into hiding. But now Sauron's exile has ended and his power is spreading anew, fueled by the knowledge that his treasure has been found. He has gathered all the Great Rings to him, and will stop at nothing to reclaim the One that will complete his dominion. The only way to stop him is to cast the Ruling Ring deep into the Fire-Mountain at the heart of the land of Mordor--Sauron's dark realm.Fate has placed the burden in the hands of Frodo Baggins, Bilbo's heir...and he is resolved to bear it to its end. Or his own.",
       "checkedOut": false,
       "id": 1
@@ -20,7 +20,7 @@
       "title": "Harry Potter and the Philosopher's Stone",
       "author": "J.K. Rowling",
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fd.ibtimes.co.uk%2Fen%2Ffull%2F1541432%2Fharry-potter-philosophers-stone.jpg&f=1&nofb=1",
-      "genre": "fiction",
+      "genre": "Fiction",
       "description": "When mysterious letters start arriving on his doorstep, Harry Potter has never heard of Hogwarts School of Witchcraft and Wizardry. They are swiftly confiscated by his aunt and uncle. Then, on Harry’s eleventh birthday, a strange man bursts in with some important news: Harry Potter is a wizard and has been awarded a place to study at Hogwarts. And so the first of the Harry Potter adventures is set to begin.",
       "checkedOut": false,
       "id": 2
@@ -29,7 +29,7 @@
       "title": "Eloquent JavaScript",
       "author": "Manjin Haverbeke",
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-um47FqTbvPg%2FVh0a-qERKYI%2FAAAAAAAAD9M%2FAemef2DnUe0%2Fs1600%2FEloquent%2BJavaScript%2BFree%2BBook.png&f=1&nofb=1",
-      "genre": "textbook",
+      "genre": "Textbook",
       "description": "None",
       "checkedOut": false,
       "id": 3
@@ -38,7 +38,7 @@
       "title": "JavaScript Patterns",
       "author": "Stoyan Stefanov",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-ZB_AAD_1tiI%2FWKzhO9JKceI%2FAAAAAAAAH_c%2FElUSkJDNXDUDXEMPmpYuCWwy_jJBR0lUwCEw%2Fs1600%2Fjsp_javascript_patterns.jpg&f=1&nofb=1",
-      "genre": "textbook",
+      "genre": "Textbook",
       "description": "None",
       "checkedOut": false,
       "id": 4
@@ -47,7 +47,7 @@
       "title": "Embers Of War",
       "author": "Gareth L. Powell",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FgCX7EZXWnp097mMaNMhVMIsQFlw%3D%2F0x0%3A1181x1800%2F1200x0%2Ffilters%3Afocal(0x0%3A1181x1800)%3Ano_upscale()%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F10131869%2FDEC171874.jpg&f=1&nofb=1",
-      "genre": "science fiction",
+      "genre": "Science Fiction",
       "description": "The sentient warship Trouble Dog was built for violence, yet following a brutal war, she is disgusted by her role in a genocide. Stripped of her weaponry and seeking to atone, she joins the House of Reclamation, an organisation dedicated to rescuing ships in distress. When a civilian ship goes missing in a disputed system, Trouble Dog and her new crew of loners, captained by Sal Konstanz, are sent on a rescue mission. Meanwhile, light years away, intelligence officer Ashton Childe is tasked with locating the poet, Ona Sudak, who was aboard the missing spaceship. What Childe doesn't know is that Sudak is not the person she appears to be. A straightforward rescue turns into something far more dangerous, as Trouble Dog, Konstanz and Childe find themselves at the centre of a conflict that could engulf the entire galaxy. If she is to save her crew, Trouble Dog is going to have to remember how to fight ...",
       "checkedOut": false,
       "id": 5
@@ -56,16 +56,16 @@
       "title": "The Hitchhiker's Guide to the Galaxy",
       "author": "Douglas Adams",
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.collider.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fthe-hitchhikers-guide-to-the-galaxy.jpg&f=1&nofb=1",
-      "genre": "science fiction",
+      "genre": "Science Fiction",
       "description": "The Hitchhiker's Guide to the Galaxy is the first of six books in the Hitchhiker's Guide to the Galaxy comedy science fiction 'hexalogy' by Douglas Adams. The novel is an adaptation of the first four parts of Adams's radio series of the same name. The novel was first published in London on 12 October 1979. It sold 250,000 copies in the first three months.",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 6
     },
     {
       "title": "Carrie",
       "author": "Stephen King",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F09%2FCarrie-1.jpg&f=1&nofb=1",
-      "genre": "horror",
+      "genre": "Horror",
       "description": "Carrie may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock, Candles fall. This IS her power and her problem. Then. an act of kindness. as spontaneous as the vicious taunts of her classmates. offers Carrie a chance to be a normal...until an unexpected cruelty turns her gift Into a weapon of horror and destruction that no one will ever forget.",
       "checkedOut": false,
       "id": 7
@@ -74,7 +74,7 @@
       "title": "The Shining",
       "author": "Stephen King",
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia4.popsugar-assets.com%2Ffiles%2Fthumbor%2FVDtKKeNUg-lYxPZCrcaxZDfUaOI%2Ffit-in%2F1024x1024%2Ffilters%3Aformat_auto-!!-%3Astrip_icc-!!-%2F2016%2F07%2F06%2F021%2Fn%2F1922283%2F4d7d4fa5_shining.jpg&f=1&nofb=1",
-      "genre": "horror",
+      "genre": "Horror",
       "description": "The Overlook Hotel is more than just a home-away-from-home for the Torrance family. For Jack, Wendy, and their young son, Danny,it is a place where past horrors come to life. And where those gifted with the shining do battle with the darkest evils. Stephen King's classic thriller is one of the most powerfully imagined novels of our time.",
       "checkedOut": false,
       "id": 8
@@ -83,7 +83,7 @@
       "title": "It",
       "author": "Stephen King",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frumahhijabaqila.com%2Fimg%2Fstephen-king-non-horror-novels-3.jpg&f=1&nofb=1",
-      "genre": "horror",
+      "genre": "Horror",
       "description": "To the children, the town was their whole world. To the adults, knowing better, Derry Maine was just their home town: familiar, well-ordered for the most part. A good place to live. It was the children who saw – and felt – what made Derry so horribly different. In the storm drains, in the sewers, IT lurked, taking on the shape of every nightmare, each one’s deepest dread. Sometimes IT reached up, seizing, tearing, killing... The adults, knowing better, knew nothing. Time passed and the children grew up, moved away. The horror of IT was deep-buried, wrapped in forgetfulness. Until they were called back, once more to confront IT as IT stirred and coiled in the sullen depths of their memories, reaching up again to make their past nightmares a terrible present reality. Frightening, epic, and brilliant, Stephen King's IT is one of the greatest works of a true storytelling master front flap",
       "checkedOut": false,
       "id": 9
@@ -92,28 +92,10 @@
       "title": "The Cabin in the Woods",
       "author": "Nancy Elizabeth Lynn",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frumahhijabaqila.com%2Fimg%2F078b1d0948b4d4739fa06586e8dcf4c4.jpg&f=1&nofb=1",
-      "genre": "mystery",
+      "genre": "Mystery",
       "description": "None",
       "checkedOut": false,
       "id": 10
-    },
-    {
-      "title": "asdasda",
-      "author": "asdasd",
-      "image": "",
-      "genre": "asdasd",
-      "description": "None",
-      "checkedOut": false,
-      "id": 11
-    },
-    {
-      "title": "",
-      "author": "",
-      "image": "",
-      "genre": "s",
-      "description": "ss",
-      "checkedOut": false,
-      "id": 12
     },
     {
       "title": "Resumes for banking and financial careers",

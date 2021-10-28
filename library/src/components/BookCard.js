@@ -95,10 +95,14 @@ const Card = styled.div`
         width: 320px;
         
     }
-
+    h3{
+        text-decoration:underline;
+    }
     img{
         width:200px;
         height: 200px;
+        border-style: groove;
+        border-color: red;
         }
     
    
