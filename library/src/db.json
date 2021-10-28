@@ -114,6 +114,348 @@
       "description": "ss",
       "checkedOut": false,
       "id": 12
+    },
+    {
+      "title": "Resumes for banking and financial careers",
+      "author": "VGM Career Horizons",
+      "image": "https://covers.openlibrary.org/b/id/1592620-L.jpg",
+      "genre": "Finance",
+      "description": "None",
+      "checkedOut": false,
+      "id": 13
+    },
+    {
+      "title": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "image": "https://covers.openlibrary.org/b/id/10637341-L.jpg",
+      "genre": "Fiction",
+      "description": "The adventures and pranks of a mischievous boy growing up in a Mississippi River town in the early nineteenth century. Winner of the 1967 Lewis Carroll Shelf Award.",
+      "checkedOut": false,
+      "id": 14
+    },
+    {
+      "title": "The Adventures of Tom Sawyer & The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "image": "https://covers.openlibrary.org/b/id/10643340-L.jpg",
+      "genre": "Fiction",
+      "description": "Tom Sawyer, a shrewd and adventurous boy, is as much at home in the respectable world of his Aunt Polly as in the self-reliant and parentless world of his friend Huck Finn. The two enjoy a series of adventures, accidentally witnessing a murder, establishing the innocence of the man wrongly accused, as well as being hunted by Injun Joe, the true murderer, eventually escaping and finding the treasure that Joe had buried.  Huckleberry Finn recounts the further adventures of Huck, who runs away from a drunken and brutal father, and meets up with the escaped slave Jim. They float down the Mississippi on a raft, participating in the lives of the characters they meet, witnessing corruption, moral decay and intellectual impoverishment.  Sharing so much in background and character, these two stories, the best of Twain, indisputably belong together in one volume. Though originally written as adventure stories for young people, the vivid writing provides a profound commentary on provincial American life in the mid-nineteenth century and the institution of slavery.",
+      "checkedOut": false,
+      "id": 15
+    },
+    {
+      "title": "A Connecticut Yankee in King Arthur's court",
+      "author": "Mark Twain",
+      "image": "https://covers.openlibrary.org/b/id/10639706-L.jpg",
+      "genre": "Fiction",
+      "description": "A blow on the head transports a Yankee to 528 A.D. where he proceeds to modernize King Arthur's kingdom by organizing a school system, constructing telephone lines, and inventing the printing press.",
+      "checkedOut": false,
+      "id": 16
+    },
+    {
+      "title": "Blood Latitudes",
+      "author": "William Harrison",
+      "image": "https://covers.openlibrary.org/b/id/10633274-L.jpg",
+      "genre": "Fiction",
+      "description": "When retired reporter Will Hobbs learns his son Buck is being sent on assignment to Africa, he is concerned. Will spent his career covering the volatile territory Buck is headed into and the kinds of danger he is likely to encounter. And Buck leaves a family behind, just as Will did years ago; and Will has feelings that go beyond fatherly affection for Buck's attractive young wife. When news comes of Buck's disappearance, Will is compelled to risk his own life to find him or to find out what has happened to him. Once inside the border of civil war^-ravaged Rwanda, Will is kidnapped by some very whacked-out \"militia\" and is forced to witness incredible violence, torture, and gleeful killing in the name of vengeance. As he struggles to survive and to keep his wits about him, Will has an opportunity to take a look at his life and to determine what he wants for his future. Harrison is the author of several novels, short stories, and screenplays.",
+      "checkedOut": false,
+      "id": 17
+    },
+    {
+      "title": "Brubaker",
+      "author": "William Harrison",
+      "image": "https://covers.openlibrary.org/b/id/10736043-L.jpg",
+      "genre": "Fiction",
+      "description": "None",
+      "checkedOut": false,
+      "id": 18
+    },
+    {
+      "title": "Oliver Twist",
+      "author": "Charles Dickens",
+      "image": "https://covers.openlibrary.org/b/id/8820454-L.jpg",
+      "genre": "Fiction",
+      "description": "Oliver Twist, OR: the Parish Boy's Progress, is Charles Dickens's second novel, and was first published as a serial from 1837 to 1839. The story centres on orphan Oliver Twist, born in a workhouse and sold into apprenticeship with an undertaker. After escaping, Oliver travels to London, where he meets the \"Artful Dodger\", a member of a gang of juvenile pickpockets led by the elderly criminal Fagin.  Oliver is an orphan living on the dangerous London streets with no one but himself to rely on. Fleeing from poverty and hardship, he falls in with a criminal street gang who will not let him go, however hard he tries to escape.  One of the most swiftly moving and unified of Charles Dickens’s great novels, Oliver Twist is also famous for its re-creation–through the splendidly realized figures of Fagin, Nancy, the Artful Dodger, and the evil Bill Sikes–of the vast London underworld of pickpockets, thieves, prostitutes, and abandoned children. Victorian critics took Dickens to task for rendering this world in such a compelling, believable way, but readers over the last 150 years have delivered an alternative judgment by making this story of the orphaned Oliver Twist one of its author’s most loved works.--Goodreads  The adventures of an orphan boy who lives in the squalid surroundings of a nineteenth century English workhouse until he becomes involved with a gang of thieves.",
+      "checkedOut": false,
+      "id": 19
+    },
+    {
+      "title": "The Enduring Vision",
+      "author": "Paul S. Boyer",
+      "image": "https://covers.openlibrary.org/b/id/8237923-L.jpg",
+      "genre": "Textbook",
+      "description": "Widely admired for its outstanding scholarship and engaging narrative, The Enduring Vision integrates political, social, and cultural history within a clear chronological framework. It was the first U.S. history textbook to incorporate sustained attention to cultural history, the West, and the environment. The Fifth Edition maintains these strengths as well as the book's distinctive focus on the enduring vision of the American people, \"the determination to live up to the values that give meaning to America.\"",
+      "checkedOut": false,
+      "id": 20
+    },
+    {
+      "title": "Criminal Justice",
+      "author": "James A. Fagin",
+      "image": "https://covers.openlibrary.org/b/id/1146265-L.jpg",
+      "genre": "Law",
+      "description": "None",
+      "checkedOut": false,
+      "id": 21
+    },
+    {
+      "title": "Don Quixote",
+      "author": "Miguel De Cervantes Saavedra",
+      "image": "https://covers.openlibrary.org/b/id/11873737-L.jpg",
+      "genre": "Fiction",
+      "description": "Widely regarded as the world's first modern novel, Don Quixote chronicles the famous picaresque adventures of the noble knight-errant Don Quixote de La Mancha and his faithful squire, Sancho Panza, as they travel through sixteenth-century Spain. [Translated by John Ormsby.]",
+      "checkedOut": false,
+      "id": 22
+    },
+    {
+      "title": "Julius Caesar",
+      "author": "William Shakespeare",
+      "image": "https://covers.openlibrary.org/b/id/8785657-L.jpg",
+      "genre": "History",
+      "description": "Presents the original text of Shakespeare's play side by side with a modern version, discusses the author and the theater of his time, and provides quizzes and other study activities.",
+      "checkedOut": false,
+      "id": 23
+    },
+    {
+      "title": "King Henry V",
+      "author": "William Shakespeare",
+      "image": "https://covers.openlibrary.org/b/id/8782193-L.jpg",
+      "genre": "History",
+      "description": "None",
+      "checkedOut": false,
+      "id": 24
+    },
+    {
+      "title": "Leaves Of Grass",
+      "author": "Walt Whitman",
+      "image": "",
+      "genre": "Poetry",
+      "description": "Just read it and you will know the sublime soliloquy flowing forth from your essence will indeed cause a flutter in your heart",
+      "checkedOut": false,
+      "id": 25
+    },
+    {
+      "title": "Dialogues of Plato",
+      "author": "Plato",
+      "image": "https://covers.openlibrary.org/b/id/5772870-L.jpg",
+      "genre": "History",
+      "description": "Writing in the fourth century B.C., in an Athens that had suffered a humiliating defeat in the Peloponnesian War, Plato formulated questions that have haunted the moral, religious, and political imagination of the West for more than 2,000 years: what is virtue? How should we love? What constitutes a good society? Is there a soul that outlasts the body and a truth that transcends appearance? What do we know and how do we know it? Plato's inquiries were all the more resonant because he couched them in the form of dramatic and often highly comic dialogues, whose principal personage was the ironic, teasing, and relentlessly searching philosopher Socrates.In this splendid collection, Scott Buchanan brings together the most important of Plato's dialogues, including Protagoras, The Symposium, with its barbed conjectures about the relation between love and madness, Phaedo and The Republic, his monumental work of political philosophy. Buchanan's learned and engaging introduction...",
+      "checkedOut": false,
+      "id": 26
+    },
+    {
+      "title": "Van Gogh",
+      "author": "Federico Zeri",
+      "image": "https://covers.openlibrary.org/b/id/10819656-L.jpg",
+      "genre": "Art",
+      "description": "None",
+      "checkedOut": false,
+      "id": 27
+    },
+    {
+      "title": "The tragedie of Macbeth",
+      "author": "William Shakespeare",
+      "image": "https://covers.openlibrary.org/b/id/5916076-L.jpg",
+      "genre": "Drama",
+      "description": "The play concerns a trusted general who secretly lusts for power. Encouraged by the prophecies of three witches and urged on by his ambitious wife Macbeth commits regicide. Left fearful and superstitious by this desperate act he is driven to a spiralling course of murder and outrage, almost inevitably culminating in his own death. One of Shakespeare’s most popular tragedies, Macbeth is ostensibly based on the Scottish king although the story represented in the play bears no relation to historical fact as the true King Macbeth was well respected by his contemporaries. This book includes the hero Macbeth becoming more and more evil after he gets told his \"destiny\" by the witches and becomes greedy with power.",
+      "checkedOut": false,
+      "id": 28
+    },
+    {
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "image": "",
+      "genre": "Mystery",
+      "description": "The Adventures of Sherlock Holmes is a collection of twelve short stories by Arthur Conan Doyle, first published on 14 October 1892. It contains the earliest short stories featuring the consulting detective Sherlock Holmes, which had been published in twelve monthly issues of The Strand Magazine from July 1891 to June 1892. The stories are collected in the same sequence, which is not supported by any fictional chronology. The only characters common to all twelve are Holmes and Dr. Watson and all are related in first-person narrative from Watson's point of view.",
+      "checkedOut": false,
+      "id": 29
+    },
+    {
+      "title": "The Box-Car Children",
+      "author": "Gertrude Chandler Warner",
+      "image": "",
+      "genre": "Mystery",
+      "description": "Orphaned siblings Henry, Jessie, Benny, and Violet are determined not to be separated after the deaths of their parents. Fearing being sent away to live with their cruel, frightening grandfather, they run away and discover an abandoned boxcar in the woods. They convert the boxcar into a safe, comfortable home and learn to take care of themselves. But when Violet becomes deathly ill, the children are forced to seek out help at the risk of their newfound freedom.  This original 1924 edition contains a few small difference from the revised 1942 edition most readers are familiar with, but the basic story beloved by children remains essentially untouched.",
+      "checkedOut": false,
+      "id": 30
+    },
+    {
+      "title": "Technology & American history",
+      "author": "Stephen Cutcliffe",
+      "image": "https://covers.openlibrary.org/b/id/7448194-L.jpg",
+      "genre": "Technology",
+      "description": "None",
+      "checkedOut": false,
+      "id": 31
+    },
+    {
+      "title": "Dantes Inferno",
+      "author": "Dante Alighieri",
+      "image": "data:image/jpeg;base64,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",
+      "genre": "Poetry",
+      "description": "None",
+      "checkedOut": false,
+      "id": 32
+    },
+    {
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "image": "https://covers.openlibrary.org/b/id/8236358-L.jpg",
+      "genre": "Historical Fiction",
+      "description": "None",
+      "checkedOut": false,
+      "id": 33
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://covers.openlibrary.org/b/id/9367345-L.jpg",
+      "genre": "Ficition",
+      "description": "He was in love with the Golden Girl of a gilded era. He was Jay Gatsby, a self-made millionaire who gave wild and lavish parties attended by strangers. \"In his blue gardens men and girls came and went like moths among the whisperings and the champagne and the stars.\" She was Daisy Buchanan, a young rich beauty with bright eyes and a passionate mouth. \"High in a white palace, the kings daughter, the golden girl. Even her voice was full of money.\" A great novel of a glittering era, of amazing richness and scope, this is the most dazzling fiction we possess of the jazz age's reckless revels. A fable of the roaring twenties that will survive as a legend.",
+      "checkedOut": false,
+      "id": 34
+    },
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "image": "https://covers.openlibrary.org/b/id/10720369-L.jpg",
+      "genre": "Adventure",
+      "description": "\"Command the murderous chalices! Drink ye harpooners! Drink and swear, ye men that man the deathful whaleboat's bow -- Death to Moby Dick!\" So Captain Ahab binds his crew to fulfil his obsession -- the destruction of the great white whale. Under his lordly but maniacal command the Pequod's commercial mission is perverted to one of vengeance. To Ahab, the monster that destroyed his body is not a creature, but the symbol of \"some unknown but still reasoning thing.\" Uncowed by natural disasters, ill omens, even death, Ahab urges his ship towards \"the undeliverable, nameless perils of the whale.\" Key letters from Melville to Nathaniel Hawthorne are printed at the end of this volume. - Back cover.",
+      "checkedOut": false,
+      "id": 35
+    },
+    {
+      "title": "War and Peace ",
+      "author": "Leo Tolstoy",
+      "image": "https://covers.openlibrary.org/b/id/10961585-L.jpg",
+      "genre": "History",
+      "description": "War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men.  A s Napoleon’s army invades, Tolstoy brilliantly follows characters from diverse backgrounds—peasants and nobility, civilians and soldiers—as they struggle with the problems unique to their era, their history, and their culture. And as the novel progresses, these characters transcend their specificity, becoming some of the most moving—and human—figures in world literature.",
+      "checkedOut": false,
+      "id": 36
+    },
+    {
+      "title": "The Odyssey",
+      "author": "Homer",
+      "image": "https://covers.openlibrary.org/b/id/9169142-L.jpg",
+      "genre": "Classic Literature",
+      "description": "The Odyssey (/ˈɒdəsi/; Greek: Ὀδύσσεια, Odýsseia) is one of two major ancient Greek epic poems attributed to Homer. It is, in part, a sequel to the Iliad, the other work ascribed to Homer. The poem is fundamental to the modern Western canon, and is the second oldest extant work of Western literature, the Iliad being the oldest. Scholars believe it was composed near the end of the 8th century BC, somewhere in Ionia, the Greek coastal region of Anatolia. - Wikipedia  When Robert Fagles' translation of the Iliad was published in 1990, critics and scholars alike hailed it as a masterpiece. Now one of the great translators of our time presents us with the Odyssey, Homer's best-loved poem, recounting Odysseus' wanderings after the Trojan War. With wit and wile, the \"man of twists and turns\" meets the challenges of gods and monsters, only to return after twenty years to a home besieged by his wife's suitors. In the myths and legends retold in this immortal poem, Fagles has captured the energy of Homer's original in a bold, contemporary idiom. This is an Odyssey to treasure for its sheer lyrical mastery.",
+      "checkedOut": false,
+      "id": 37
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://archive.org/services/img/catcye00jdsa",
+      "genre": "Fiction",
+      "description": "Story of Holden Caufield with his idiosyncrasies, penetrating insight, confusion, sensitivity and negativism. Holden, knowing he is to be expelled from school, decides to leave early. He spends three days in New York City and tells the story of what he did and suffered there.",
+      "checkedOut": false,
+      "id": 38
+    },
+    {
+      "title": "JavaScript: The Definitive Guide",
+      "author": "David Flanagan, James Guerin",
+      "image": "https://covers.openlibrary.org/b/id/10229384-L.jpg",
+      "genre": "Technology",
+      "description": "JavaScript is a powerful, object-based scripting language; JavaScript programs can be embedded directly into HTML web pages. When combined with the Document Object Model (DOM) defined by a web browser, JavaScript allows you to create Dynamic HTML (DHTML) content and interactive client-side web applications. JavaScript syntax is based on the popular programming languages C, C++, and Java, which makes it familiar and easy to learn for experienced programmers. At the same time, JavaScript is an interpreted scripting language, providing a flexible, forgiving environment in which new programmers can learn.  JavaScript: The Definitive Guide provides a thorough description of the core JavaScript language and both the legacy and standard DOMs implemented in web browsers. The book includes sophisticated examples that show you how to handle common tasks such as validating form data, working with cookies, and creating portable DHTML animations. The book also contains detailed reference sections that cover the core JavaScript API, the legacy client-side API, and the W3C standard DOM API, documenting every JavaScript object, method, property, constructor, constant, function, and event handler in those APIs.  This fourth edition of the bestselling JavaScript book has been carefully updated to cover JavaScript 1.5 (ECMAScript Version 3). The book also provides complete coverage of the W3C DOM standard (Level 1 and Level 2), while retaining material on the legacy Level 0 DOM for backward compatibility.  JavaScript: The Definitive Guide is a complete programmer's guide and reference manual for JavaScript. It is particularly useful for developers working with the latest standards-compliant web browsers, such as Internet Explorer 6, Netscape 6, and Mozilla. HTML authors can learn how to use JavaScript to build dynamic web pages. Experienced programmers can quickly find the information they need to start writing sophisticated JavaScript programs. This book is an indispensable reference for all JavaScript programmers, regardless of experience level.",
+      "checkedOut": false,
+      "id": 39
+    },
+    {
+      "title": "Agile Web Development with Rails",
+      "author": "Dave Thomas",
+      "image": "https://covers.openlibrary.org/b/id/6995157-L.jpg",
+      "genre": "Technology",
+      "description": "None",
+      "checkedOut": false,
+      "id": 40
+    },
+    {
+      "title": "Absalom, Absalom!",
+      "author": "William Faulkner",
+      "image": "https://d3i5mgdwi2ze58.cloudfront.net/sm15lqtnyzz03dctpcpjt3jnpqo4",
+      "genre": "Fiction",
+      "description": "None",
+      "checkedOut": false,
+      "id": 41
+    },
+    {
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "image": "https://covers.openlibrary.org/b/olid/OL31905084M-M.jpg",
+      "genre": "Fiction",
+      "description": "Steinbeck’s classic novel of the Great Depression is as vivid now as ever. The story focuses on a family of Oklahoma sharecroppers, farmers who work another man’s land for a share of the crops. Driven from their home by drought and poverty they take to the road in a battered old truck and make their way to California to look for work. When they arrive they find hundreds of others like them being forced to work for breadline wages. they begin working as fruit pickers, strike-breakers replacing the people who have been trying to establish a union but their consciences force them to leave.",
+      "checkedOut": false,
+      "id": 42
+    },
+    {
+      "title": "To Kill A Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://covers.openlibrary.org/b/id/8797863-L.jpg",
+      "genre": "Fiction",
+      "description": "One of the best-loved stories of all time, To Kill a Mockingbird has been translated into more than 40 languages, sold more than 30 million copies worldwide, served as the basis for an enormously popular motion picture, and voted one of the best novels of the 20th century by librarians across the United States. A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views a world of great beauty and savage inequities through the eyes of a young girl, as her father -- a crusading local lawyer -- risks everything to defend a black man unjustly accused of a terrible crime.  Lawyer Atticus Finch defends Tom Robinson -- a black man charged with the rape of a white girl. Writing through the young eyes of Finch's children Scout and Jem, Harper Lee explores with rich humor and unswerving honesty the irrationality of adult attitudes toward race and class in small-town Alabama during the mid-1930s Depression years. The conscience of a town steeped in prejudice, violence, and hypocrisy is pricked by the stamina and quiet heroism of one man's struggle for justice. But the weight of history will only tolerate so much.",
+      "checkedOut": false,
+      "id": 43
+    },
+    {
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "image": "https://covers.openlibrary.org/b/id/10240188-L.jpg",
+      "genre": "Fiction",
+      "description": "Written in 1914 but not published until 1925, a year after Kafka’s death, The Trial is the terrifying tale of Josef K., a respectable bank officer who is suddenly and inexplicably arrested and must defend himself against a charge about which he can get no information. Whether read as an existential tale, a parable, or a prophecy of the excesses of modern bureaucracy wedded to the madness of totalitarianism, The Trial has resonated with chilling truth for generations of readers.",
+      "checkedOut": false,
+      "id": 44
+    },
+    {
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "image": "https://covers.openlibrary.org/b/id/8235424-L.jpg",
+      "genre": "Fiction",
+      "description": "\"Gulliver's travels purports to be a travel book. It is a blend of fantasy and realism and describes the shipwrecked Gulliver's encounters with the inhabitants of four places: Lilliput, Brobdingnag, Laputa, and the country of the Houyhnhnms\"",
+      "checkedOut": false,
+      "id": 45
+    },
+    {
+      "title": "The Mysterious Stranger",
+      "author": "Mark Twain",
+      "image": "https://covers.openlibrary.org/b/id/6071466-L.jpg",
+      "genre": "Fiction",
+      "description": "None",
+      "checkedOut": false,
+      "id": 46
+    },
+    {
+      "title": "The Aeneid",
+      "author": "Virgil",
+      "image": "https://covers.openlibrary.org/b/id/1260356-L.jpg",
+      "genre": "Literature",
+      "description": "None",
+      "checkedOut": false,
+      "id": 47
+    },
+    {
+      "title": "David Copperfield",
+      "author": "Charles Dickens",
+      "image": "https://covers.openlibrary.org/b/id/5680191-L.jpg",
+      "genre": "Fiction",
+      "description": "David Copperfield is the eighth novel by Charles Dickens. The novel's full title is The Personal History, Adventures, Experience and Observation of David Copperfield the Younger of Blunderstone Rookery (Which He Never Meant to Publish on Any Account). It was first published as a serial in 1849–50, and as a book in 1850.  The novel features the character David Copperfield, and is written in the first person, as a description of his life until middle age, with his own adventures and the numerous friends and enemies he meets along his way. It is his journey of change and growth from infancy to maturity, as people enter and leave his life and he passes through the stages of his development.",
+      "checkedOut": false,
+      "id": 48
+    },
+    {
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "image": "https://covers.openlibrary.org/b/id/295787-L.jpg",
+      "genre": "Fiction",
+      "description": "Eliot’s epic of 19th century provincial social life, set in a fictitious Midlands town in the years 1830-32, has several interlocking storylines blended effortlessly together to form a fully coherent narrative. Its main themes are the status of women, social expectations and hypocrisy, religion, political reform and education. It has often been called the greatest novel in the English language.",
+      "checkedOut": false,
+      "id": 49
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "image": "https://covers.openlibrary.org/b/id/12054715-L.jpg",
+      "genre": "Fiction",
+      "description": "Nineteen Eighty-Four: A Novel, often referred to as 1984, is a dystopian social science fiction novel by the English novelist George Orwell (the pen name of Eric Arthur Blair). It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, Nineteen Eighty-Four centres on the consequences of totalitarianism, mass surveillance, and repressive regimentation of persons and behaviours within society. Orwell, himself a democratic socialist, modelled the authoritarian government in the novel after Stalinist Russia. More broadly, the novel examines the role of truth and facts within politics and the ways in which they are manipulated.",
+      "checkedOut": false,
+      "id": 50
     }
   ],
   "userList": []
