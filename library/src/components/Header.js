@@ -15,9 +15,11 @@ export default Header;
 
 const Head = styled.div`
     /* position: absolute; */
-    margin-left: 12%;
-    width: 185px;
-    height: 45px;
+    width: 300px;
+    height: 400px;
     float:right;
 
+    img {
+      
+    }
 `

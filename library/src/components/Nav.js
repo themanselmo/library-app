@@ -15,12 +15,9 @@ function Nav(){
 
 export default Nav
 
-const Navi = styled.ul`
-    /* position: absolute; */
-    margin-left: 10%;
+const Navi = styled.div`
     margin-top:130px;
     background-color: black; 
-    height: 80px;
     display: flex;
     align-items: center;
     border-style: groove;
