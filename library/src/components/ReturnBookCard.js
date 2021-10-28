@@ -32,9 +32,20 @@ const Card = styled.div`
     transition: 0.3s;
     width: 300px;
     height: 450px;
+    background-color: white;
+    color:black;
     border-radius: 25px 25px 25px 25px;
     border-style: outset;
     border-color: red;
+    
+    button{
+        font-family: Merriweather, serif;
+        color:white;
+        border-style: inset;
+        border-radius: 25px 25px 25px 25px;
+        border-color: white;
+        background-color: red;
+    }
     img{
         width:200px;
         height: 200px;

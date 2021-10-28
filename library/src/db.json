@@ -49,7 +49,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FgCX7EZXWnp097mMaNMhVMIsQFlw%3D%2F0x0%3A1181x1800%2F1200x0%2Ffilters%3Afocal(0x0%3A1181x1800)%3Ano_upscale()%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F10131869%2FDEC171874.jpg&f=1&nofb=1",
       "genre": "science fiction",
       "description": "The sentient warship Trouble Dog was built for violence, yet following a brutal war, she is disgusted by her role in a genocide. Stripped of her weaponry and seeking to atone, she joins the House of Reclamation, an organisation dedicated to rescuing ships in distress. When a civilian ship goes missing in a disputed system, Trouble Dog and her new crew of loners, captained by Sal Konstanz, are sent on a rescue mission. Meanwhile, light years away, intelligence officer Ashton Childe is tasked with locating the poet, Ona Sudak, who was aboard the missing spaceship. What Childe doesn't know is that Sudak is not the person she appears to be. A straightforward rescue turns into something far more dangerous, as Trouble Dog, Konstanz and Childe find themselves at the centre of a conflict that could engulf the entire galaxy. If she is to save her crew, Trouble Dog is going to have to remember how to fight ...",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 5
     },
     {
@@ -67,7 +67,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F09%2FCarrie-1.jpg&f=1&nofb=1",
       "genre": "horror",
       "description": "Carrie may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock, Candles fall. This IS her power and her problem. Then. an act of kindness. as spontaneous as the vicious taunts of her classmates. offers Carrie a chance to be a normal...until an unexpected cruelty turns her gift Into a weapon of horror and destruction that no one will ever forget.",
-      "checkedOut": true,
+      "checkedOut": false,
       "id": 7
     },
     {
@@ -116,24 +116,5 @@
       "id": 12
     }
   ],
-  "userList": [
-    {
-      "title": "Embers Of War",
-      "author": "Gareth L. Powell",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FgCX7EZXWnp097mMaNMhVMIsQFlw%3D%2F0x0%3A1181x1800%2F1200x0%2Ffilters%3Afocal(0x0%3A1181x1800)%3Ano_upscale()%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F10131869%2FDEC171874.jpg&f=1&nofb=1",
-      "genre": "science fiction",
-      "description": "The sentient warship Trouble Dog was built for violence, yet following a brutal war, she is disgusted by her role in a genocide. Stripped of her weaponry and seeking to atone, she joins the House of Reclamation, an organisation dedicated to rescuing ships in distress. When a civilian ship goes missing in a disputed system, Trouble Dog and her new crew of loners, captained by Sal Konstanz, are sent on a rescue mission. Meanwhile, light years away, intelligence officer Ashton Childe is tasked with locating the poet, Ona Sudak, who was aboard the missing spaceship. What Childe doesn't know is that Sudak is not the person she appears to be. A straightforward rescue turns into something far more dangerous, as Trouble Dog, Konstanz and Childe find themselves at the centre of a conflict that could engulf the entire galaxy. If she is to save her crew, Trouble Dog is going to have to remember how to fight ...",
-      "checkedOut": true,
-      "id": 5
-    },
-    {
-      "title": "Carrie",
-      "author": "Stephen King",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F09%2FCarrie-1.jpg&f=1&nofb=1",
-      "genre": "horror",
-      "description": "Carrie may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock, Candles fall. This IS her power and her problem. Then. an act of kindness. as spontaneous as the vicious taunts of her classmates. offers Carrie a chance to be a normal...until an unexpected cruelty turns her gift Into a weapon of horror and destruction that no one will ever forget.",
-      "checkedOut": true,
-      "id": 7
-    }
-  ]
+  "userList": []
 }

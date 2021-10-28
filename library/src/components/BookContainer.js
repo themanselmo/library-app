@@ -23,7 +23,7 @@ export default BookContainer
 
 const BookContainerContainer = styled.div `
     /* position: absolute; */
-    display:flex;
+    display:flex ;
     flex-wrap: wrap;
     grid-gap: 50px;
     justify-content: space-evenly;
