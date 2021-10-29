@@ -12,7 +12,7 @@ function ReturnBookCard({book, book:{image,title,author,genre, checkedOut}, hand
     return(
         
         <Card id="card">
-            {image === '' ? image = noImage : null}
+            <p className='image-text'>{image === '' ? image = noImage : null}</p>
             <img id='card-image' src={image}/>
             <h3>{title}</h3>
             <h4>{author}</h4>
@@ -37,6 +37,10 @@ const Card = styled.div`
     border-radius: 25px 25px 25px 25px;
     border-style: outset;
     border-color: red;
+
+    .image-text {
+        display: none;
+    }
     
     button{
         font-family: Merriweather, serif;

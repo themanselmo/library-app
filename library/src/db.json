@@ -29,7 +29,7 @@
       "title": "Eloquent JavaScript",
       "author": "Manjin Haverbeke",
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-um47FqTbvPg%2FVh0a-qERKYI%2FAAAAAAAAD9M%2FAemef2DnUe0%2Fs1600%2FEloquent%2BJavaScript%2BFree%2BBook.png&f=1&nofb=1",
-      "genre": "Textbook",
+      "genre": "Technology",
       "description": "None",
       "checkedOut": false,
       "id": 3
@@ -38,7 +38,7 @@
       "title": "JavaScript Patterns",
       "author": "Stoyan Stefanov",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-ZB_AAD_1tiI%2FWKzhO9JKceI%2FAAAAAAAAH_c%2FElUSkJDNXDUDXEMPmpYuCWwy_jJBR0lUwCEw%2Fs1600%2Fjsp_javascript_patterns.jpg&f=1&nofb=1",
-      "genre": "Textbook",
+      "genre": "Technology",
       "description": "None",
       "checkedOut": false,
       "id": 4
@@ -67,7 +67,7 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F09%2FCarrie-1.jpg&f=1&nofb=1",
       "genre": "Horror",
       "description": "Carrie may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock, Candles fall. This IS her power and her problem. Then. an act of kindness. as spontaneous as the vicious taunts of her classmates. offers Carrie a chance to be a normal...until an unexpected cruelty turns her gift Into a weapon of horror and destruction that no one will ever forget.",
-      "checkedOut": false,
+      "checkedOut": true,
       "id": 7
     },
     {
@@ -438,7 +438,35 @@
       "description": "Nineteen Eighty-Four: A Novel, often referred to as 1984, is a dystopian social science fiction novel by the English novelist George Orwell (the pen name of Eric Arthur Blair). It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, Nineteen Eighty-Four centres on the consequences of totalitarianism, mass surveillance, and repressive regimentation of persons and behaviours within society. Orwell, himself a democratic socialist, modelled the authoritarian government in the novel after Stalinist Russia. More broadly, the novel examines the role of truth and facts within politics and the ways in which they are manipulated.",
       "checkedOut": false,
       "id": 50
+    },
+    {
+      "title": "Berserk",
+      "author": "Kentaro Miura",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.jDoQ3z4Sh7FXuwqnnKEK1AHaKf%26pid%3DApi&f=1",
+      "genre": "Fiction",
+      "description": "Berserk is a Japanese manga series written and illustrated by Kentaro Miura. Set in a medieval Europe-inspired dark fantasy world, the story centers on the characters of Guts, a lone mercenary, and Griffith, the leader of a mercenary band called the \"Band of the Hawk\".",
+      "checkedOut": false,
+      "id": 51
+    },
+    {
+      "title": "Berserk",
+      "author": "Kentaro Miura",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.jDoQ3z4Sh7FXuwqnnKEK1AHaKf%26pid%3DApi&f=1",
+      "genre": "Fiction",
+      "description": "Berserk is a Japanese manga series written and illustrated by Kentaro Miura. Set in a medieval Europe-inspired dark fantasy world, the story centers on the characters of Guts, a lone mercenary, and Griffith, the leader of a mercenary band called the \"Band of the Hawk\".",
+      "checkedOut": false,
+      "id": 52
     }
   ],
-  "userList": []
+  "userList": [
+    {
+      "title": "Carrie",
+      "author": "Stephen King",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F09%2FCarrie-1.jpg&f=1&nofb=1",
+      "genre": "Horror",
+      "description": "Carrie may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock, Candles fall. This IS her power and her problem. Then. an act of kindness. as spontaneous as the vicious taunts of her classmates. offers Carrie a chance to be a normal...until an unexpected cruelty turns her gift Into a weapon of horror and destruction that no one will ever forget.",
+      "checkedOut": true,
+      "id": 7
+    }
+  ]
 }

@@ -1,11 +1,10 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import noImage from '../images/noImage.jpeg'
 import styled from 'styled-components'
 function BookCard({book, book:{image,title,author,genre, description, checkedOut}, handleRentBook}) {
 
     const [rent, setRented] = useState(checkedOut)
     const [face, setFace] = useState(false)
-
 
     const HandleClick = (book) => {
         setRented(!rent)
@@ -14,8 +13,9 @@ function BookCard({book, book:{image,title,author,genre, description, checkedOut
     const handleFlip = () => {
         setFace(!face)
     }
+
     return(
-        
+           
         <Card id="card">
             {face ?  
                 <Back>
@@ -26,8 +26,8 @@ function BookCard({book, book:{image,title,author,genre, description, checkedOut
 
                    :     
                 <div>
-                   {image === '' ? image = noImage : null}
-           
+                   
+                   <p className='image-text'>{ image === '' ? image = noImage : null }</p>
                    <img id='card-image' src={image}/>
                    <h3>{title}</h3>
                    <h4>{author}</h4>
@@ -72,6 +72,10 @@ const Card = styled.div`
     border-style: outset;
     border-color: red;
     
+    .image-text {
+        display: none;
+    }
+
     #description{
         font-size: 75%;
     }
